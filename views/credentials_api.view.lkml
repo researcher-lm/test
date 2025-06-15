@@ -17,10 +17,10 @@ view: credentials_api {
     timeframes: [raw, time, date, week, month, quarter, year]
     sql: ${TABLE}.last_request_at ;;
   }
-  dimension: secret {
-    type: string
-    sql: ${TABLE}.secret ;;
-  }
+  # dimension: secret {
+  #   type: string
+  #   sql: ${TABLE}.secret ;;
+  # }
   # dimension: token {
   #   type: string
   #   sql: ${TABLE}.token ;;
