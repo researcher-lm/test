@@ -21,10 +21,10 @@ view: credentials_api {
     type: string
     sql: ${TABLE}.secret ;;
   }
-  dimension: token {
-    type: string
-    sql: ${TABLE}.token ;;
-  }
+  # dimension: token {
+  #   type: string
+  #   sql: ${TABLE}.token ;;
+  # }
   dimension: user_id {
     type: number
     # hidden: yes
